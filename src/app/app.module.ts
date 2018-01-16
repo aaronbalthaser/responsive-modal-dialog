@@ -1,9 +1,14 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
+/* Module Dependencies */
 
+/* Containers */
 import { AppComponent } from './app.component';
 
+/* Components */
+
+/* Services */
 
 @NgModule({
   declarations: [
@@ -15,4 +20,5 @@ import { AppComponent } from './app.component';
   providers: [],
   bootstrap: [AppComponent]
 })
-export class AppModule { }
+
+export class AppModule {}
